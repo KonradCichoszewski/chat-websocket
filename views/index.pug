@@ -1,0 +1,9 @@
+html
+  head
+    title= title
+  body
+    h1= message
+    
+  ul
+    each todo in todos
+      li= todo.description + ', status: ' + todo.complete
